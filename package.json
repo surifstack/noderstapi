@@ -1,0 +1,16 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node src/app.js",
+    "dev"  : "nodemon src/app.js"
+
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.17",
+    "validator": "^13.1.17"
+  }
+}
